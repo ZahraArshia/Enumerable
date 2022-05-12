@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 
 # reusable component for enumerable
 module MyEnumerable
