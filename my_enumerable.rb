@@ -1,23 +1,26 @@
+# frozen_string_literal: true
+
+# reusable component for enumerable
 module MyEnumerable
   def any?
-    each { |item|
+    each do |item|
       return true if yield item
-    }
+    end
     false
   end
 
   def all?
-    each { |item|
+    each do |item|
       return false unless yield item
-    }
+    end
     true
   end
 
   def filter
     filtered_list = []
-    each { |item|
+    each do |item|
       filtered_list.push(item) if yield item
-    }
-    return filtered_list
+    end
+    filtered_list
   end
 end
