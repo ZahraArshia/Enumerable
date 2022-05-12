@@ -1,4 +1,3 @@
-
 # reusable component for enumerable
 module MyEnumerable
   def any?

@@ -1,4 +1,3 @@
-
 require_relative './my_enumerable'
 
 # Get lists of items

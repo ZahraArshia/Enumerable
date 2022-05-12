@@ -1,4 +1,3 @@
-
 require_relative './my_list'
 
 # Create our list
