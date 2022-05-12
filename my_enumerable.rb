@@ -1,4 +1,4 @@
-module my_enumerable
+module MyEnumerable
   def any?
     each { |item|
       return true if yield item
